@@ -6,5 +6,5 @@ edition = "2018"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
-[dependencies]
-winapi = { version = "^0.3", features = ["tlhelp32", "handleapi", "memoryapi", "processthreadsapi"] }
+[build-dependencies]
+cc = "1.0"
